@@ -1,7 +1,13 @@
-:root {
-    --font-family: "Roboto", sans-serif;
-    --second-family: "Raleway", sans-serif;
-  }
+:root{
+  --text-color: #757575;
+  --secondary-text-color: #2F303A;
+  --nav-list-color: #212121;
+  --alert-text-color: #FFFFFF;
+  --background-color: #000000;
+  --axent-color: #2196F3;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
   header{
     font-family: var(--font-family);
     font-weight: 500;
@@ -9,28 +15,28 @@
     letter-spacing: 0.02em;
     color: #212121;
   }
-.web{
+.header_title{
   font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
 }
-.info{
+.header_main{
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #2196f3;
 }
-.tel{
+.header_tel{
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.h1{
+.section_h1{
   font-family: var(--font-family);
 font-weight: 900;
 font-size: 44px;
@@ -57,7 +63,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
-.var{
+.section_p{
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
@@ -73,7 +79,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.name{
+.footer{
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
@@ -81,7 +87,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
 }
-.lob{
+.footer_a{
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
