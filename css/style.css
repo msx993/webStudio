@@ -75,6 +75,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .section1{
+  display: flex;
   font-family: var(--font-family);
 font-weight: 700;
 font-size: 36px;
@@ -107,7 +108,8 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6)
 }
 .container{
-  width: 1600px;
+  display: flex;
+  width: 1630px;
     height: 648px;
 /*margin-left: auto;
 margin-right: auto;*/
@@ -116,6 +118,7 @@ padding-bottom: 94px;
 text-align: center;
 }
 .section_foto1,.section_foto2,.section_foto3,.section_foto4{
+  display: flex;
   width: 260px; ;
   height: 270px;
   text-align: center;
