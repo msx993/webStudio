@@ -8,6 +8,14 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1230px;
+margin-left: auto;
+margin-right: auto;
+  outline: 1px solid red;
+}
   header{
     font-family: var(--font-family);
     font-weight: 500;
@@ -39,6 +47,7 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
 }
+
 .section_h1{
   font-family: var(--font-family);
 font-weight: 900;
@@ -107,16 +116,9 @@ line-height: 171%;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6)
 }
-.container{
-  display: flex;
-  width: 1630px;
-    height: 648px;
-/*margin-left: auto;
-margin-right: auto;*/
-padding: 186px;
-padding-bottom: 94px;
-text-align: center;
-}
+
+
+
 .section_foto1,.section_foto2,.section_foto3,.section_foto4{
   display: flex;
   width: 260px; ;
