@@ -9,6 +9,8 @@
   --second-family: "Raleway", sans-serif;
 }
 .container{
+  display: flex;
+  flex-direction: row;
   padding-right: 15px;
   padding-left: 15px;
   width: 1230px;
@@ -21,14 +23,14 @@ margin-right: auto;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #212121;
+  background-color: #212121;
   }
 .header_title{
+  color: #FFFFFF;
   font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
-color: #212121;
 }
 .header_title:hover{
 color: var(--axent-color);
@@ -68,13 +70,14 @@ text-align: center;
 color: #fff;
 }
 h3{
+  color: #212121;
   font-family: var(--font-family);
 font-weight: 700;
 font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
 }
+
 .section_p{
   font-family: var(--font-family);
 font-weight: 400;
