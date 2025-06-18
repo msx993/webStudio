@@ -9,16 +9,11 @@
   --second-family: "Raleway", sans-serif;
 }
 .container{
-  justify-content: space-around;
-  flex-wrap: wrap;
   padding-right: 15px;
   padding-left: 15px;
   width: 1230px;
 margin-left: auto;
 margin-right: auto;
-box-shadow: 70px 77px 62px -38px rgba(0,0,0,0.66);
--webkit-box-shadow: 70px 77px 62px -38px rgba(0,0,0,0.66);
--moz-box-shadow: 70px 77px 62px -38px rgba(0,0,0,0.66);
   outline: 1px solid rgb(0, 0, 0);
 }
   header{
@@ -71,13 +66,38 @@ color: #757575;
     justify-content: space-around;
 }
 
+.section_img:hover{
+  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+}
+
 .section_team{
     display: flex;
   flex-direction: row;
     justify-content: space-around;
-
-
 }
+.section_team:hover{
+  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75)
+}
+
+
+
+.portfolio_img{
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+}
+
+.portfolio_img:hover{
+  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
+}
+
+
 
 .section_text{
   font-family: var(--font-family);
