@@ -21,90 +21,80 @@ margin-right: auto;
   outline: 1px solid rgb(0, 0, 0);
 }
   header{
-    display: flex;
-    flex-direction: row;
-      background-color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    height: 100px;
-    letter-spacing: 0.02em;
-    background-color: var(--secondary-text-color);
+
 
   }
-.header_topik{
-  color: #000000;
+.header_logo{
   font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
+color: #2196f3;
+margin: 32px 93px 210px;
+}
+
+.header_list{
+  display: flex;
+  flex-direction: row;
+}
+
+.header_item_studio{
+  margin: 1px 50px 32px 452px;
+}
+
+.header_item{
+  margin: 32px 50px;
 }
 
 
-.header_logo{
-   color: #FFFFFF;
-margin-right: 93px;
-
-}
-
-.header_title{
-  color: #FFFFFF;
-display: flex;
-flex-direction: row;
-margin-right: 0 50px;
-font-size: 13px;
-font-weight:  400;
-}
-.header_title:hover{
+.header_item:hover{
 color: var(--axent-color);
 }
 
-.header_contact{
-  margin-right: 344px;
+.header_item_studio:hover{
+color: var(--axent-color);
 }
 
+.header_main:hover{
+color: var(--axent-color);
+}
+
+.header_tel:hover{
+color: var(--axent-color);
+}
 
 .header_main{
-  font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #2196f3;
+ margin: 32px 50px 32px 400px;
 }
 .header_tel{
-  font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #757575;
+   margin: 32px 219px 32px 50px;
 }
 
-.main_page{
-  width: 1600px;
-  height: 600px;
-  background-color: var(--secondary-text-color);
-}
+
+
 
 
 .section_text{
-  color: #fff;
-  margin: 180px 452px 300px;
-  font-family: var(--font-family);
-font-weight: 600;
-font-size: 44px;
-line-height: 136%;
-letter-spacing: 0.06em;
+  /*color: #FFFFFF;*/
+width: 1600px;
+height: 600px;
+background-color: #2F303A;
+
 }
 .btn{
-  font-family: var(--font-family);
-  width: 216px;
-  height: 50px;
+
+width: 216px;
+height: 50px;
+font-family: var(--font-family);
 font-weight: 700;
-border-radius: 10px;
 font-size: 16px;
-background-color: #2196f3;
+line-height: 187%;
 letter-spacing: 0.06em;
+text-align: center;
 color: #fff;
+margin: 32px 10px;
+background-color: var(--axent-color);
+border-radius: 10px;
 }
 
 .section_img{
@@ -120,7 +110,9 @@ align-items: center;
     margin: 94px 453px 50px;
 }
 
+.main_page{
 
+}
 
 .section_img:hover{
   box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
