@@ -121,6 +121,13 @@ padding: 180px 452px 1px;
   flex-direction: row;
     justify-content: space-around;
 }
+
+.team_text{
+display: flex;
+justify-content: center;
+}
+
+
 .section_team:hover{
   box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
@@ -142,7 +149,11 @@ flex-wrap: wrap;
 }
 
 
-
+.section_list{
+  display: flex;
+  flex-direction: row;
+    gap: 30px;
+}
 
 h3{
   color: #212121;
@@ -154,9 +165,8 @@ text-transform: uppercase;
 }
 
 .main_team{
-  display: flex;
-align-items: center;
-    margin: 94px 453px 50px;
+display: flex;
+justify-content: center;
 }
 
 .section_title{
