@@ -9,69 +9,82 @@
   --second-family: "Raleway", sans-serif;
 }
 .container{
- gap: 30px;
   padding-right: 15px;
   padding-left: 15px;
   width: 1230px;
-  margin: 75px 250px 61px;
 margin-left: auto;
 margin-right: auto;
   
 }
+.flex{
+display: flex;
+}
   
+header{
+padding: 24px 0;
+}
+
 .header_logo{
   font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
-margin: 32px 93px 210px;
+margin-right: 93px;
 }
 
 .header_list{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 50px;
 }
 
-.header_item_studio{
-  margin: 1px 50px 32px 452px;
+.header_contact{
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+  align-items: center;
 }
 
-.header_item{
-  margin: 32px 50px;
-}
+
 
 
 .header_item:hover{
 color: var(--axent-color);
 }
 
-.header_item_studio:hover{
+
+.header_contact_item:hover{
 color: var(--axent-color);
 }
 
-.header_main:hover{
-color: var(--axent-color);
+/*секцйія героя*/
+
+
+.hero{
+  text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
+background-image: url("../img/hero_bg.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
-.header_tel:hover{
-color: var(--axent-color);
-}
-
-.header_main{
- margin: 32px 50px 32px 400px;
-}
-.header_tel{
-   margin: 32px 219px 32px 50px;
-}
-
-.section_text{
-  color: #FFFFFF;
-width: 1600px;
-height: 600px;
+.hero_text{
+font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 text-align: center;
+color: #fff;
 }
-.btn{
+
+
+.hero_btn{
 width: 216px;
 font-family: var(--font-family);
 font-weight: 700;
@@ -84,43 +97,18 @@ border-radius: 10px;
 }
 
 
-.btn:hover{
+.hero_btn:hover{
 background-color: lightslategray;
 }
 
 
-.section_img{
-  display: flex;
-  flex-direction: row;
-   gap: 30px;
-    margin-bottom: 154px;
+.section{
+  padding: 94px 0;
 }
 
-
-
-.main_page{
-display: flex;
-flex-direction: row;
-background-color: #2F303A;
-padding: 180px 452px 1px;
+.team{
+  background-color: #F5F4FA;
 }
-
-
-
-.section_team{
-    display: flex;
-  flex-direction: row;
-  align-items: center;
-    justify-content: space-around;
-}
-
-.portfolio_img{
-  display: flex;
-  flex-direction: row;
-flex-wrap: wrap;
-}
-
-
 
 .section_list{
   display: flex;
@@ -128,7 +116,17 @@ flex-wrap: wrap;
     gap: 30px;
 }
 
-h3{
+.section_title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-bottom: 50px;
+}
+
+.section_subtitle{
   color: #212121;
   font-family: var(--font-family);
 font-weight: 700;
@@ -137,12 +135,24 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
-.main_team{
-display: flex;
-align-items: center;
+.team_job{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+margin: 10px 0;
 }
 
-.section_title{
+.team_item{
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
+text-align: center;
+padding-bottom: 30px;
+}
+
+.section_text{
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
@@ -150,34 +160,26 @@ line-height: 171%;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.section{
-  display: flex;
-  align-items: center;
-  font-family: var(--font-family);
-font-weight: 700;
-font-size: 36px;
-letter-spacing: 0.03em;
-padding-left: 560px;
-color: #212121;
 
 
-}
+
 .footer{
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.03em;
-text-align: center;
 color: #212121;
 background-color: #212121;
+padding: 60px 0;
+
 }
 .footer_link{
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.03em;
-text-align: center;
 color: #757575;
+
 }
 address{
   font-family: var(--font-family);
@@ -188,28 +190,22 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6)
 }
 
-
-
-.section_foto{
-  display: flex;
-  width: 260px; ;
-  height: 270px;
-  text-align: center;
+.btn_list{
+display: flex;
+justify-content: center;
+gap: 8px;
+margin-bottom: 50px;
 }
 
-.job{
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #757575;
-margin: 10px 70px 124px;
+.portfolio_list{
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
 }
 
-
-
-
+.portfolio{
+  padding: 90px 0;
+}
 
 
 
