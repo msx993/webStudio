@@ -9,8 +9,6 @@
   --second-family: "Raleway", sans-serif;
 }
 .container{
-  display: flex;
- flex-direction: row;
  gap: 30px;
   padding-right: 15px;
   padding-left: 15px;
@@ -18,12 +16,9 @@
   margin: 75px 250px 61px;
 margin-left: auto;
 margin-right: auto;
-  outline: 1px solid rgb(0, 0, 0);
+  
 }
-  header{
-
-
-  }
+  
 .header_logo{
   font-family: var(--second-family);
 font-weight: 700;
@@ -70,10 +65,6 @@ color: var(--axent-color);
    margin: 32px 219px 32px 50px;
 }
 
-
-
-
-
 .section_text{
   color: #FFFFFF;
 width: 1600px;
@@ -114,28 +105,14 @@ background-color: #2F303A;
 padding: 180px 452px 1px;
 }
 
-.section_img:hover{
-  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
-}
+
 
 .section_team{
     display: flex;
   flex-direction: row;
+  align-items: center;
     justify-content: space-around;
 }
-
-
-
-
-.section_team:hover{
-  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75)
-}
-
-
 
 .portfolio_img{
   display: flex;
@@ -143,11 +120,6 @@ padding: 180px 452px 1px;
 flex-wrap: wrap;
 }
 
-.portfolio_img:hover{
-  box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 28px 0px rgba(0,0,0,0.75);
-}
 
 
 .section_list{
