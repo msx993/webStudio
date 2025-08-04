@@ -145,6 +145,38 @@ color: #757575;
 margin: 10px 0;
 }
 
+
+
+.social_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: 12px;
+}
+
+.social_item:hover{
+  color: var(--alert-text-color);
+  background-color: var(--axent-color);
+}
+
+.social_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 44px;
+  width: 44px;
+  margin-right: 10px;
+  background-color: var(--alert-text-color);
+  color: var(--text-color);
+  border-radius: 50%;
+}
+
+.social_icon{
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
 .team_item{
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 background: #fff;
