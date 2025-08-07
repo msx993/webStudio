@@ -47,6 +47,18 @@ margin-right: 93px;
   align-items: center;
 }
 
+.social_header_item{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+height: 44px;
+  width: 44px;
+  margin-right: 10px;
+  background-color: var(--alert-text-color);
+  color: var(--text-color);
+  border-radius: 50%;
+}
+
 
 
 
