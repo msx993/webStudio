@@ -63,6 +63,9 @@ height: 44px;
   color: var(--axent-color);
 }
 
+.social_icon{
+  margin-right: 10px;
+}
 
 .header_item:hover{
 color: var(--axent-color);
@@ -222,6 +225,7 @@ color: #212121
   justify-content: center;
   display: 12px;
    gap: 30px;
+        padding-top: 54px;
    padding-bottom: 94px
 }
 
@@ -234,7 +238,6 @@ color: #212121
    width: 170px;
   color: var(--text-color);
    outline:1px solid #AFB1B8;
-  
 }
 
 .client_item:hover{
@@ -246,6 +249,7 @@ color: #212121
 fill: var(--text-color);
 height: 80px;
 width: 100px;
+
 }
 
 .client_icon:hover{
