@@ -156,14 +156,56 @@ text-transform: uppercase;
   font-family: var(--second-family);
   position: absolute;
  background-color: #2F303A;
+ opacity: 80%;
+ width: 370px;
+ height: 57px;
+bottom: -630px;
  color: #fff;
  padding: 5px;
  border-radius: 3px;
  border: 1px solid black;
  cursor: pointer;
-
+z-index: 1;
 }
 
+.section_layer_2{
+  font-family: var(--second-family);
+  position: absolute;
+ background-color: #2F303A;
+ opacity: 80%;
+ width: 370px;
+ height: 57px;
+bottom: -630px;
+left: 559px;
+ color: #fff;
+ padding: 5px;
+ border-radius: 3px;
+ border: 1px solid black;
+ cursor: pointer;
+z-index: 1;
+}
+
+.section_layer_3{
+  font-family: var(--second-family);
+  position: absolute;
+ background-color: #2F303A;
+ opacity: 80%;
+ width: 370px;
+ height: 57px;
+bottom: -630px;
+left: 959px;
+ color: #fff;
+ padding: 5px;
+ border-radius: 3px;
+ border: 1px solid black;
+ cursor: pointer;
+z-index: 1;
+}
+
+
+.layer_text{
+padding: 12px  90px;
+}
 
 .team_job{
   font-family: var(--font-family);
