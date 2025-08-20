@@ -153,16 +153,17 @@ text-transform: uppercase;
 }
 
 .section_layer{
-  display: flex;
-  flex-direction: row;
-  width: 370px;
-  height: 70px;
-  padding: 27px 113px;
-  z-index: 1;
-  background-color: #2F303A;
-  opacity: 80%;
+  font-family: var(--second-family);
+  position: absolute;
+ background-color: #2F303A;
+ color: #fff;
+ padding: 5px;
+ border-radius: 3px;
+ border: 1px solid black;
+ cursor: pointer;
 
 }
+
 
 .team_job{
   font-family: var(--font-family);
