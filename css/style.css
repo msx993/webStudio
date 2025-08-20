@@ -152,6 +152,18 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+.section_layer{
+  display: flex;
+  flex-direction: row;
+  width: 370px;
+  height: 70px;
+  padding: 27px 113px;
+  z-index: 1;
+  background-color: #2F303A;
+  opacity: 80%;
+
+}
+
 .team_job{
   font-family: var(--font-family);
 font-weight: 400;
