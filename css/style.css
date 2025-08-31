@@ -373,6 +373,35 @@ flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
+.modal_text{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+padding: 24px;
+}
+
+.document_link{
+  color: var(--axent-color);
+}
+
+
+.button_label{
+font-family: var(--font-family);
+background-color: var(--axent-color);
+font-weight: 400;
+font-size: 12px;
+line-height: 187%;
+letter-spacing: 0.06em;
+color: #fff;.
+width: 216px;
+}
+
+.button_label:hover{
+background-color: rgb(26, 85, 168);
+}
 
 .backdrop {
   position: fixed;
@@ -401,12 +430,27 @@ pointer-events: none;
   min-width: 400px;
   min-height: 300px;
   padding: 15px;
+  height: 581px;
+  width: 528px;
   transform: translate(-50%, -50%);
-  background-color: skyblue;
+  background-color: #FFFFFF ;
   transform: translate(-50%, -50%);
 }
 
 .modal_label{
   display: flex;
   flex-direction: column;
+  padding: 12px;
+}
+
+.modal-close-button{
+  display: flex;
+  justify-content: flex-end;
+width: 30px;
+height: 30px;
+}
+
+.label_text{
+  display: flex;
+  justify-content: center;
 }

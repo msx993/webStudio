@@ -322,9 +322,12 @@
         
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-        <button class="modal-close-button" data-modal-close>close</button>
+        <button class="modal-close-button" data-modal-close><svg>
+  <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg></button>
 
 <form class="modal_form">
+  <h1 class="modal_text">Залиште свої дані, ми вам передзвонимо</h1>
   <label class="modal_label">
     <span>Введіть ім`я</span>
     <input
@@ -334,15 +337,15 @@
     >
   </label>
 <label class="modal_label">
-      <span>Введіть пароль</span>
+      <span> Введіть номер телефону</span>
     <input type="tel"
     plaseholder="Твій номер телефону"
-    minlength="4"
+    minlength="9"
      required
     >
 </label>
 <label class="modal_label">
-      <span>Введіть пароль</span>
+      <span>Введіть email</span>
     <input type="email"
     plaseholder="Твій email"
     minlength="4"
@@ -350,11 +353,18 @@
     >
 </label>
 <label class="modal_label">
-      <span>Я не бот</span>
+      <span>Коментар</span>
+    <input type="text"
+
+    >
+</label>
+<label class="modal_label">
+      <span class="label_text">Погоджуюся з розсилкою та приймаю <a class="document_link" href="./document.html">Умови договору</a></span>
     <input type="checkbox"
      required
     >
 </label>
+
 <button class="button_label" type="submit">відправити</button>
 </div>
 </form>
