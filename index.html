@@ -62,7 +62,8 @@
           Ефективні рішення для<br>
           вашого бізнесу
         </h1>
-        <button class="hero_btn">Замовити послугу</button>
+        <button class="hero_btn" data-modal-open>Замовити послугу</button>
+               
       </section>
       <section class="section">
         <div class="container">
@@ -320,6 +321,39 @@
          </div>
         </div>
     </footer>
-    
+        
+<div class="backdrop is-hidden" data-modal>
+        <button class="modal-close-button" data-modal-close>close</button>
+
+<form class="modal_form">
+  <label class="modal_label">
+    <span>Введіть ім`я</span>
+    <input
+    type="text"
+    plaseholder="Твоє Ім`я"
+    required
+    >
+  </label>
+<label class="modal_label">
+      <span>Введіть пароль</span>
+    <input type="tel"
+    plaseholder="Твій номер телефону"
+    minlength="4"
+     required
+    >
+</label>
+<label class="modal_label">
+      <span>Введіть пароль</span>
+    <input type="email"
+    plaseholder="Твій email"
+    minlength="4"
+     required
+    >
+<button class="button_label" type="submit">відправити</button>
+</form>
+
+      </div>
+    </div> 
+  <script src="./js/modal.js"></script>
   </body>
 </html>
