@@ -33,8 +33,25 @@ color: #2196f3;
 margin-right: 93px;
 }
 
+.header_studio::after{
+content: "";
+position: absolute;
+display: block;
+border-color: var(--axent-color);
+border-radius: 4px;
+bottom: 0px;
+width: 100%;
+height: 4px;
+
+}
+
+
+
+
+
 .header_list{
   display: flex;
+
   flex-direction: row;
   align-items: center;
   gap: 50px;
@@ -115,7 +132,7 @@ border-radius: 10px;
 
 
 .hero_btn:hover{
-background-color: lightslategray;
+background-color: rgb(26, 85, 168);
 }
 
 
@@ -384,6 +401,7 @@ pointer-events: none;
   min-width: 400px;
   min-height: 300px;
   padding: 15px;
+  transform: translate(-50%, -50%);
   background-color: skyblue;
   transform: translate(-50%, -50%);
 }

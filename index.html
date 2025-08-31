@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +23,7 @@
       </h1>
       <ul class="header_list">
         <li>
-          <a class="header_item" href="./index.html ">студія</a>
+          <a class="header_item header_studio" href="./index.html ">студія</a>
         </li>
 
         <li>
@@ -323,6 +321,7 @@
     </footer>
         
 <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
         <button class="modal-close-button" data-modal-close>close</button>
 
 <form class="modal_form">
@@ -349,7 +348,15 @@
     minlength="4"
      required
     >
+</label>
+<label class="modal_label">
+      <span>Я не бот</span>
+    <input type="checkbox"
+     required
+    >
+</label>
 <button class="button_label" type="submit">відправити</button>
+</div>
 </form>
 
       </div>
@@ -357,3 +364,6 @@
   <script src="./js/modal.js"></script>
   </body>
 </html>
+
+
+
