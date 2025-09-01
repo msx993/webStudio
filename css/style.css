@@ -392,11 +392,11 @@ padding: 24px;
 font-family: var(--font-family);
 background-color: var(--axent-color);
 font-weight: 400;
+width: 216px;
 font-size: 12px;
 line-height: 187%;
 letter-spacing: 0.06em;
 color: #fff;.
-width: 216px;
 }
 
 .button_label:hover{
@@ -423,7 +423,7 @@ pointer-events: none;
   overflow: hidden;
 }
 
-.modal {
+.modal{
   position: absolute;
   top: 50%;
   left: 50%;
