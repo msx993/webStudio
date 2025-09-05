@@ -389,7 +389,13 @@ padding: 24px;
 
 
 .button_label{
-font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family);
 background-color: var(--axent-color);
 font-weight: 400;
 padding: 10px 52px;
@@ -397,6 +403,7 @@ font-size: 12px;
 line-height: 187%;
 letter-spacing: 0.06em;
 color: #fff;
+bottom: 35px;
 }
 
 .button_label:hover{
@@ -438,12 +445,25 @@ pointer-events: none;
 }
 
 .modal_label{
+  position: relative;
   display: flex;
   flex-direction: column;
   position: relative;
   padding: 12px;
 }
 
+
+.modal_input{
+  position: absolute;
+}
+.modal_title_text{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121
+}
 
 
 .modal-close-button{
@@ -459,9 +479,7 @@ height: 30px;
  color: #757575;
 }
 
-.input_label:focus-within{
-  color: var(--axent-color);
-}
+
 
 
 
