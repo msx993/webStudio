@@ -6,31 +6,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <header>
+ <header class="header">
+      <div class="container flex">
       <h1>
         <a class="header_logo" href="./index.html"> Webstudio </a>
       </h1>
       <ul class="header_list">
-        <li
-          <a class="header_item_studio"  href="./index.html ">студія</a>
+        <li>
+          <a class="header_item" href="./index.html ">студія</a>
         </li>
 
         <li>
           <a class="header_item" href="./portfolio.html">Портфоліо</a>
         </li>
-        <li><a class="header_item" href="./contacts.html">контакти</a></li>
-      
+        <li><a class="header_item_contact" href="./contacts.html">контакти</a></li>
 
-      
+      </ul>
+<ul class="header_contact">
         <li>
-          <a class="header_main" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a class="header_contact_item" href="mailto:info@devstudio.com">
+                  <svg class="social_icon">
+                     <use href="./img/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+            info@devstudio.com</a>
+          
         </li>
+
         <li>
-          <a class="header_tel" href="tell:+38 096 111 11 11">+38 096 111 11 11</a>
+          <a class="header_contact_item" href="tell:+38 096 111 11 11">
+                <svg class="social_icon">
+                     <use href="./img/symbol-defs.svg#icon-phone"></use>
+                </svg>
+            +38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
   <body>
     <p><b>Ігор Дем'яненко</b></p>

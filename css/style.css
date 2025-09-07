@@ -36,16 +36,23 @@ margin-right: 93px;
 .header_studio::after{
 content: "";
 position: absolute;
-display: block;
-border-color: var(--axent-color);
-border-radius: 4px;
-bottom: 0px;
-width: 100%;
-height: 4px;
-
+display: flex;
+padding: 2px 21px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
 }
 
 
+.header_portfolio::after{
+content: "";
+position: absolute;
+display: flex;
+padding: 2px 39px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
+}
 
 
 
