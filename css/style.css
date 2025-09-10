@@ -54,7 +54,15 @@ margin-top: 7px;
 background-color: var(--axent-color);
 }
 
-
+.header-contact::after{
+  content: "";
+position: absolute;
+display: flex;
+padding: 2px 33px;
+border-radius: 10px;
+margin-top: 7px;
+background-color: var(--axent-color);
+}
 
 .header_list{
   display: flex;
@@ -435,6 +443,10 @@ pointer-events: none;
 
 .no-scroll {
   overflow: hidden;
+}
+
+.backdrop.is-hidden .modal{
+ transform: translate(-50%, -50%) scale(0.25);
 }
 
 .modal{
