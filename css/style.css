@@ -439,6 +439,8 @@ background-color: rgb(26, 85, 168);
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
+transition-property: opacity;
+transition-duration: 500ms;
 }
 
 .no-scroll {
@@ -458,9 +460,9 @@ pointer-events: none;
   padding: 15px;
   height: 581px;
   width: 528px;
-  transform: translate(-50%, -50%);
   background-color: #FFFFFF ;
   transform: translate(-50%, -50%);
+  transition: transform 500ms;
 }
 
 .modal_label{
