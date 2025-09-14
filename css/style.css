@@ -375,7 +375,7 @@ background-color: #2196f3;
 color: #FFFFFF;
 top: 0;
 left: 0;
-opacity: 70%;
+opacity: 80%;
 transform: translateY(100%);
 transition-property: transform;
 transition-duration: 500ms;
