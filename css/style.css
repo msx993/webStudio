@@ -585,16 +585,18 @@ width: 480px;
 }
 
 .header_logo{
-margin-left: 96px;
+margin-right: 88px;
 }
 
 .header_contact{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-  margin-left: 46px;
+margin-left: 96px;
+
+
 }
 
+.header_contact_email{
+margin-bottom: 10px;
+}
 
 
 
