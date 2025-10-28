@@ -581,7 +581,7 @@ height: 120px;
   @media screen and (min-width: 768px) and (max-width 1200px){
 
   .container{
-width: 480px;
+width: 768px;
 }
 
 .header_logo{
@@ -590,61 +590,11 @@ margin-right: 88px;
 
 .header_contact{
 margin-left: 96px;
-
-
 }
 
 .header_contact_email{
 margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section_list{
-  flex-wrap: wrap;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
 
