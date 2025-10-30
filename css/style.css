@@ -147,6 +147,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
 color: #fff;
+
+
 }
 
 
@@ -574,11 +576,63 @@ height: 120px;
 
 
 
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 480px) {
+.container {
+      width: 480px;
+      outline: 1px solid red;
+  }
+
+.hero_text{
+font-size: 26px;
+line-height: 162%;
+letter-spacing: 0.06em;
+}
+
+.hero{
+width: 480px;
+
+padding-top: 118px;
+padding-bottom: 118px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    outline: 1px solid blue;
+  }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    outline: 1px solid green
+  }
+
+}
+
+
+
+
+
 
 
 /* таблетна версія */
 
-  @media screen and (min-width: 768px) and (max-width 1200px){
+  /* @media screen and (min-width: 768px) and (max-width 1024px){
 
   .container{
 width: 768px;
@@ -596,7 +650,7 @@ margin-left: 96px;
 margin-bottom: 10px;
 }
 
-  }
+  } */
 
 
 
